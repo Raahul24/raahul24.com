@@ -1,7 +1,6 @@
 {
-  "buildCommand": "cd cv && pnpm install && pnpm build",
-  "outputDirectory": "cv/.next",
-  "installCommand": "cd cv && pnpm install",
-  "framework": "nextjs",
-  "rootDirectory": "cv"
+    "buildCommand": "cd cv && pnpm install && pnpm build",
+    "outputDirectory": "cv/.next",
+    "installCommand": "cd cv && pnpm install",
+    "framework": "nextjs"
 }
