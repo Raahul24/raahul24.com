@@ -189,14 +189,14 @@ export default function Page() {
 
         // Create a sequential, rate-limited fetch process
         const results = [];
-        for (const repoUrl of RESUME_DATA.open_source) {
+        for (const repoUrl of RESUME_DATA.open_source as string[]) {
           try {
             // Add a delay between requests (500ms)
             if (results.length > 0) {
               await new Promise((resolve) => setTimeout(resolve, 500));
             }
 
-            const apiUrl = repoUrl.replace(
+            const apiUrl = (repoUrl as string).replace(
               "https://github.com",
               "https://api.github.com/repos",
             );
