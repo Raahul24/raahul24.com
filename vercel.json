@@ -1,6 +1,8 @@
+```json
 {
-    "buildCommand": "cd cv && pnpm install && pnpm build",
-    "outputDirectory": "cv/.next",
-    "installCommand": "cd cv && pnpm install",
+    "buildCommand": "pnpm install && pnpm build",
+    "outputDirectory": ".next",
+    "installCommand": "pnpm install",
     "framework": "nextjs"
 }
+```
