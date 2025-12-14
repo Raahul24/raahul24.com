@@ -1,8 +1,6 @@
-```json
 {
     "buildCommand": "pnpm install && pnpm build",
     "outputDirectory": ".next",
     "installCommand": "pnpm install",
     "framework": "nextjs"
 }
-```
